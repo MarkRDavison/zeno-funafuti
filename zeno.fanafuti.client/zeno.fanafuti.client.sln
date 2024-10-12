@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeno.fanafuti.client", "zeno.fanafuti.client.csproj", "{44FEDCC9-4F72-4EE3-835E-A5E71749CFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeno.fanafuti.engine", "..\zeno.fanafuti.engine\zeno.fanafuti.engine.csproj", "{53DA00B3-7E8D-46D7-A5A2-59165C2DE6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeno.fanafuti.core", "..\zeno.fanafuti.core\zeno.fanafuti.core.csproj", "{64ACA156-50D8-4664-8E4C-1358C598D23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeno.fanfuti.engine.ui", "..\zeno.fanfuti.engine.ui\zeno.fanfuti.engine.ui.csproj", "{C0635E36-9DEA-49A4-9477-0A623CD9264C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{374A6433-138E-4AC1-A0D0-CB957DBECECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeno.fanafuti.engine.ui.tests", "..\Tests\zeno.fanafuti.engine.ui.tests\zeno.fanafuti.engine.ui.tests.csproj", "{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44FEDCC9-4F72-4EE3-835E-A5E71749CFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FEDCC9-4F72-4EE3-835E-A5E71749CFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FEDCC9-4F72-4EE3-835E-A5E71749CFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FEDCC9-4F72-4EE3-835E-A5E71749CFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DA00B3-7E8D-46D7-A5A2-59165C2DE6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DA00B3-7E8D-46D7-A5A2-59165C2DE6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DA00B3-7E8D-46D7-A5A2-59165C2DE6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DA00B3-7E8D-46D7-A5A2-59165C2DE6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64ACA156-50D8-4664-8E4C-1358C598D23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ACA156-50D8-4664-8E4C-1358C598D23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ACA156-50D8-4664-8E4C-1358C598D23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ACA156-50D8-4664-8E4C-1358C598D23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0635E36-9DEA-49A4-9477-0A623CD9264C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0635E36-9DEA-49A4-9477-0A623CD9264C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0635E36-9DEA-49A4-9477-0A623CD9264C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0635E36-9DEA-49A4-9477-0A623CD9264C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F2C4D8A-CD7E-46E9-A25C-DBE3CB64B7AE} = {374A6433-138E-4AC1-A0D0-CB957DBECECA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BC26EDC-39B6-4F69-9562-BAE38B7DA41E}
+	EndGlobalSection
+EndGlobal
